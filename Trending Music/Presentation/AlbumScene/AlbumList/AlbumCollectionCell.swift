@@ -124,9 +124,9 @@ class AlbumCollectionCell: UICollectionViewCell {
             guard let url = NSURL(string: artworkUrl) else { return }
             
             let baseImageUrl = url.deletingLastPathComponent
-            let highResImageUrl = baseImageUrl?.appendingPathComponent("\(albumImageWidth)x\(albumImageWidth)bb.jpg")
-            
-            albumImageView.downloadImage(with: highResImageUrl!.absoluteString, contentMode: UIView.ContentMode.scaleAspectFit)
+            if let highResImageUrl = baseImageUrl?.appendingPathComponent("\(albumImageWidth)x\(albumImageWidth)bb.jpg") {
+                albumImageView.downloadImage(with: highResImageUrl.absoluteString, contentMode: UIView.ContentMode.scaleAspectFit)
+            }
         }
     }
 }
