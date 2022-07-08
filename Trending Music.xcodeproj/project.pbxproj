@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		447559272877D12C002B7BA8 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447559262877D12C002B7BA8 /* AppConfiguration.swift */; };
 		44771E952873A2B5007EB8E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44771E942873A2B5007EB8E2 /* AppDelegate.swift */; };
 		44771E9E2873A2B9007EB8E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44771E9D2873A2B9007EB8E2 /* Assets.xcassets */; };
 		44771EA12873A2B9007EB8E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44771E9F2873A2B9007EB8E2 /* LaunchScreen.storyboard */; };
 		44771EAB2873A385007EB8E2 /* AppAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44771EAA2873A385007EB8E2 /* AppAppearance.swift */; };
-		44771EAD2873B0F0007EB8E2 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44771EAC2873B0F0007EB8E2 /* AppConfiguration.swift */; };
-		44771EAF2873B211007EB8E2 /* AppFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44771EAE2873B211007EB8E2 /* AppFlowCoordinator.swift */; };
+		44771EAD2873B0F0007EB8E2 /* AppFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44771EAC2873B0F0007EB8E2 /* AppFlowCoordinator.swift */; };
 		44771EB22873B25C007EB8E2 /* AppDIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44771EB12873B25C007EB8E2 /* AppDIContainer.swift */; };
 		44771EB42873B2C7007EB8E2 /* AlbumsSceneDIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44771EB32873B2C7007EB8E2 /* AlbumsSceneDIContainer.swift */; };
 		44771EB92873B36B007EB8E2 /* AlbumRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44771EB82873B36B007EB8E2 /* AlbumRepository.swift */; };
@@ -44,14 +44,14 @@
 /* Begin PBXFileReference section */
 		1F8DF7326A903C352F4C1883 /* Pods-Trending Music.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trending Music.release.xcconfig"; path = "Target Support Files/Pods-Trending Music/Pods-Trending Music.release.xcconfig"; sourceTree = "<group>"; };
 		444B970828759AA4001672D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		447559262877D12C002B7BA8 /* AppConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
 		44771E912873A2B4007EB8E2 /* Trending Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trending Music.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44771E942873A2B5007EB8E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44771E9D2873A2B9007EB8E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44771EA02873A2B9007EB8E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44771EA22873A2B9007EB8E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44771EAA2873A385007EB8E2 /* AppAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAppearance.swift; sourceTree = "<group>"; };
-		44771EAC2873B0F0007EB8E2 /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
-		44771EAE2873B211007EB8E2 /* AppFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppFlowCoordinator.swift; path = "../../../../../Creative Cloud Files/AppFlowCoordinator.swift"; sourceTree = "<group>"; };
+		44771EAC2873B0F0007EB8E2 /* AppFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlowCoordinator.swift; sourceTree = "<group>"; };
 		44771EB12873B25C007EB8E2 /* AppDIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDIContainer.swift; sourceTree = "<group>"; };
 		44771EB32873B2C7007EB8E2 /* AlbumsSceneDIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsSceneDIContainer.swift; sourceTree = "<group>"; };
 		44771EB82873B36B007EB8E2 /* AlbumRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumRepository.swift; sourceTree = "<group>"; };
@@ -150,9 +150,9 @@
 			isa = PBXGroup;
 			children = (
 				44771E942873A2B5007EB8E2 /* AppDelegate.swift */,
+				447559262877D12C002B7BA8 /* AppConfiguration.swift */,
 				44771EAA2873A385007EB8E2 /* AppAppearance.swift */,
-				44771EAC2873B0F0007EB8E2 /* AppConfiguration.swift */,
-				44771EAE2873B211007EB8E2 /* AppFlowCoordinator.swift */,
+				44771EAC2873B0F0007EB8E2 /* AppFlowCoordinator.swift */,
 				44771EB02873B24B007EB8E2 /* DIContainer */,
 			);
 			path = Application;
@@ -458,8 +458,7 @@
 				44771EB22873B25C007EB8E2 /* AppDIContainer.swift in Sources */,
 				44771ED02873C2B7007EB8E2 /* AlbumListFlowCoordinator.swift in Sources */,
 				44771EEC2874CE4D007EB8E2 /* UILabel+Kerning.swift in Sources */,
-				44771EAF2873B211007EB8E2 /* AppFlowCoordinator.swift in Sources */,
-				44771EAD2873B0F0007EB8E2 /* AppConfiguration.swift in Sources */,
+				44771EAD2873B0F0007EB8E2 /* AppFlowCoordinator.swift in Sources */,
 				44771EB42873B2C7007EB8E2 /* AlbumsSceneDIContainer.swift in Sources */,
 				44771EFC2874FC47007EB8E2 /* APIEndpoint.swift in Sources */,
 				44771EE628749374007EB8E2 /* AlbumDetailViewModel.swift in Sources */,
@@ -472,6 +471,7 @@
 				44771E952873A2B5007EB8E2 /* AppDelegate.swift in Sources */,
 				44771ED92873C67B007EB8E2 /* AlbumListUI.swift in Sources */,
 				44771EC32873B73E007EB8E2 /* Album.swift in Sources */,
+				447559272877D12C002B7BA8 /* AppConfiguration.swift in Sources */,
 				44771ED62873C67B007EB8E2 /* AlbumListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
